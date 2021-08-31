@@ -1,34 +1,43 @@
-# Foobar
+# Apponline
 
-Foobar is a Python library for dealing with word pluralization.
+## What is Apponline ?
+- The primary goal of this application is to build a unmediated relationship with doctors.
+- The patients can book their doctor's appointment online.
+- Doctors have a seperate interface to manage their appointment.
+- Get health related feeds.
 
-## Installation
+## How to use?
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+### The Login
+- Signup if visiting for the first time.
+- Login directly if already signed up.
 
-```bash
-pip install foobar
-```
+### Home Screen
+- View popular doctors.
 
-## Usage
+### Schedule Screen
+- It screen is divided into 3 sections.
+- Patients can track, view past appointment,  cancel their appointment.
 
-```python
-import foobar
+### News Screen
+- It consist of daily news feed.
 
-# returns 'words'
-foobar.pluralize('word')
+### Doctors Schedule Screen
+- Here Doctors can select a slot and glimpse of all the patients.
 
-# returns 'geese'
-foobar.pluralize('goose')
+## How to Book a Appointment?
+1) Step 1 : Select Doctor.
+2) Step 2 : Click on Book an Appointment Button.
+3) Step 3 : Select a date for your appointment and time.
+4) Step 4 : Click on submit button and Hurray! your appointment has been booked.
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
+## How to cancel a Appointment?
+1) Step 1 : Go to Schedule screen.
+2) Step 2 : Click on cancel button and your appointment has been canceled.
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## How to give Review to doctor?
+1) Step 1 : Go to Schedule screen.
+2) Step 2 : Click on Review Button.
+3) Step 3 : Give your Review and hit on submit.
 
-Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
